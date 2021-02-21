@@ -44,7 +44,7 @@ STRINGS =
 		-- Weapon Is On Cooldown
 		CD_IsOnCD = {
 			"我的{ITEM}將會在{CDTIME}秒後冷卻完畢",
-			"我的{ITEM}將會在{CDTIME}秒後充能完畢"，
+			"我的{ITEM}將會在{CDTIME}秒後充能完畢",
 			-- "",
 		},
 		
