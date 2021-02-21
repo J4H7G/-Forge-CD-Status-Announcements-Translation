@@ -218,6 +218,11 @@ STRINGS =
 			"优先攻击{MOUSE}!"
 			-- "",
 		},
+						
+		Companion_UnderMouse = {
+			"Aw I Finally Have A Friend {MOUSE}.",
+			-- "",
+		},
 		
 		Bosses_UnderMouse = {
 			"噢我的老天，我看见{MOUSE}?!?!",
