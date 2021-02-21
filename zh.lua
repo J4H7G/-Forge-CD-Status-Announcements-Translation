@@ -2,7 +2,7 @@
 -- Author's Notes --
 --------------------
 --[[
-//------Translation By Memmysalt------\\
+//------Simplified Chinese By Memmysalt------\\
 
 - Use A Text Editing Program To Make Stuff Easier To See Eg: Visual Studio Code, Sublime, Notepad++, Atom,...
 - If You Do Intend To Add New Quotes, Remember Your Commas At The End Of Each Quotes If They Are In A Table! (,)
@@ -218,7 +218,7 @@ STRINGS =
 			"优先攻击{MOUSE}!"
 			-- "",
 		},
-						
+				
 		Companion_UnderMouse = {
 			"Aw I Finally Have A Friend {MOUSE}.",
 			-- "",
@@ -272,7 +272,7 @@ STRINGS =
 		{ITEM}: Weapon/Item on hand name.
 		{PLAYERNAME}: Your name.
 		{HEALTH}: Your current health.
-		{MAXHEALTH}:Your max health.
+		{MAXHEALTH}: Your max health.
 		{LENNY}: You Know Exactly What This Does.
 	]]
 		--举个栗子
@@ -448,6 +448,6 @@ STRINGS =
 		InstantSpecial = {"Instant.", "Double Click RMB.", "On Release.", Toggle = "Instant Special."},
 		GetArticle = function(str)
 			return ""
-		end
+		end,
 	},
 }
