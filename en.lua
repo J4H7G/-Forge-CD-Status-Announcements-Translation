@@ -16,7 +16,7 @@
 
 - Formatting: 
 	* Each Section Has It's Own Sub Formatting Shortcuts, They Can't Interract With Eachother At The Moment.
-	* :emoji:	= If you own these emojis in game you can utilize them like so: ":grave: This is me atm, :pig: This is my enemies, :trophy: What I'll recieve after this.",
+	* :emoji: = If you own these emojis in game you can utilize them like so -> ":grave: This is me atm, :pig: This is my enemies, :trophy: What I'll recieve after this.",
 	* " ◌ ‡ † ← ↑ → ↓ ↔ ↕ Θ  Æ ∞ δ ≈ Ω © Æ Î Ö Ü ¤ ♪ ♫ ♯ ● ○ ♠ ♣ ♥ ♦ □ ■ ▲ ▼ ¯\_(ツ)_/¯ " -- Some Sample Symbols You Can Use To Fancify Your Chat, See More Symbols You Can Use In Character Map!
 
 - If You Want Your Name Omitted From The "Reserved_UnderMouse" Table, Let Me Know On The Mod Page.
@@ -25,7 +25,7 @@
 STRINGS =
 {
 	_FORGECDCUSTOMQUOTES = {
-		RandomLenny = {"⊙▽⊙", "ヽ(´∇｀)ノ", "(σ･ω･)σ", "ᕕ( ᐛ )ᕗ", "(╭☞•_ • )╭☞", }, -- Wonder What This Does...
+		RandomLenny = {"⊙▽⊙", "ヽ(´∇｀)ノ", "(σ･ω･)σ", "ᕕ( ᐛ )ᕗ", "(╭☞•_ • )╭☞", },
 	----------------------------
 	-- Weapon Cooldown Quotes --
 	----------------------------
@@ -203,7 +203,7 @@ STRINGS =
 		Player_UnderMouse = {
 			Health = { -- [Shift + AnnounceEntsBind] If Entity Under Mouse Is A Player.
 				"{MOUSE}'s Health Is At {PLAYERHEALTHPCT}%",
-				-- "{MOUSE}'s Health Is (:heart: {PLAYERHEALTH}/{PLAYERHEALTHMAX})", -- DO NOT USE!
+				-- "",
 			},
 			
 			Greeting = {
@@ -243,7 +243,7 @@ STRINGS =
 		-- For poking fun at your friends mainly xD. But you can put almost anything here(Caps Sensitive).
 			-- stod
 			["KU_qaTCHsHI"] = {
-				"Well Well...Isn't It {MOUSE} {LENNY}!",
+				"Well Well...If It Isn't {MOUSE} {LENNY}!",
 				-- "I Sense A Looming Presence Of A Sword Master...",
 				-- "For Your Own Sanity stub Plz Tank :D.",
 				-- "",
@@ -333,7 +333,7 @@ STRINGS =
 				"There's Floccy :3",
 				-- "",
 			},
-			-- Memorysalt™
+			-- Memmysalt
 			["KU_FzX9zZcQ"] = {
 				"Memmy mlem, Mlemy mem, Memmy Mlemmy Mlem mem Mlem {LENNY}",
 				-- "I Can Taste The Sweetness In Salt...",
@@ -389,7 +389,8 @@ STRINGS =
 				-- "",
 			},
 			]]
-			---------------
+			
+			--------------- You can also have a reserved string for a specific mob/entity with that name.
 			["Battlemaster Pugna"] = {
 				"Look At Him Sitting There, I Bet We Could Take Him...But We Legally Can't :(",
 				-- "",
@@ -413,10 +414,10 @@ STRINGS =
 		{ITEM}: Weapon/Item on hand name.
 		{PLAYERNAME}: Your name.
 		{HEALTH}: Your current health.
-		{MAXHEALTH}:Your max health.
+		{MAXHEALTH}: Your max health.
 		{LENNY}: You Know Exactly What This Does.
 	]]
-	
+		-- Placeholder
 		Temp =
 		{
 			"*Insert 5 Stages Of Grief Here*",
@@ -622,17 +623,7 @@ STRINGS =
 			"Herbology Is Such A Niche Subject. ({CDTIME} Sec).",
 			-- "",
 		},
-		
-		--[[
-		-- Bad Time (I Still Don't Know Where This Came From!)
-		BadTime =
-		{
-			"Dew Yew Wana Haev A Baed Tom?",
-			"Do You Wanna Have A Bad Time?",
-			"Do You Wish For An Uncomfortable Situation To Be Brought Upon Thy Self?",
-			"Dear Unspecified Gendered Homosapien, Would Thou Enjoy The Feeling Of Imminent Danger Looming Over Your Head At All Times, By The One And Only Entity That Is I?",
-		},
-		]]
+
 	},
 	
 	_UTIL =
